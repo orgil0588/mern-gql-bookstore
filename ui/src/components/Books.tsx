@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 const BookDetail = ({ data }: any) => {
-  console.log(data);
+ 
   return (
     <Link to={data._id}>
       <div className="bg-white p-4 rounded-xl flex flex-col justify-between hover:shadow-2xl cursor-pointer">
